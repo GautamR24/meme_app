@@ -16,6 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/guideline2"
+        android:background="@color/share"
         android:onClick="shareMeme"/>
 
     <Button
@@ -27,12 +28,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
+        android:background="@color/next"
         android:onClick="nextMeme"/>
 
 
     <ImageView
         android:id="@+id/memeImageView"
         android:layout_width="0dp"
+        android:background="@color/black"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/shareButton"
         app:layout_constraintLeft_toLeftOf="parent"
